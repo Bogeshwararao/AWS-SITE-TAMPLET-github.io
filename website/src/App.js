@@ -1,12 +1,13 @@
-import '../components/Nav';
+import React from 'react';
+import Nav from './components/Nav';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Nav/>
+      <Nav />
     </div>
   );
 }
 
-export default App;
+
