@@ -5,11 +5,14 @@
 body {
   margin: 0;
 }
-.nav > ul{
-  display: flex;
-  list-style-type: none;
-  padding-left: 10px;
+nav > ul{
+   list-style-type: none;
+   padding: 10px,10px,10px,10px;
 }
-.nav > li{
-  padding-left: 10px;
+nav > lis{
+  padding-bottom: 30px;
+  padding: 10px,10px,10px,10px;
+}
+nav {
+  display: flex;
 }
