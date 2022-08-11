@@ -1,13 +1,12 @@
-import React from 'react'
-
+import React from 'react';
 export const Nav = () => {
   return (
     <nav className='nav'>
     <ul>
-    <li className='lis'>Home</li>
-    <li className='lis'>Blogs</li>
-    <li className='lis'>Explore</li>
-    <li className='lis'>Contacts</li>
+    <li>Home</li>
+    <li>Blogs</li>
+    <li>Explore</li>
+    <li>Contacts</li>
       </ul>
     </nav>
   )

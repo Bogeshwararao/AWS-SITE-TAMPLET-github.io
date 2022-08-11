@@ -7,12 +7,13 @@ body {
 }
 nav > ul{
    list-style-type: none;
-   padding: 10px,10px,10px,10px;
+   display: flex;
+   
 }
-nav > lis{
-  padding-bottom: 30px;
-  padding: 10px,10px,10px,10px;
-}
-nav {
-  display: flex;
+nav > li{
+  right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
