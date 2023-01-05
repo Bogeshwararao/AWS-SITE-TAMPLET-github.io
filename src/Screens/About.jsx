@@ -1,13 +1,12 @@
 import React from "react";
-import SkillCard from "../Components/SkillCard";
 import Typed from "react-typed";
-const Skills = () => {
+const About = () => {
   return (
     <section id="Header" className="d-flex align-items-center col-10 mx-auto">
             <div className=" align-items-center">
                   <Typed
                     className="typed"
-                    strings={["About ACM-SIST "]}
+                    strings={["About ACM-SIST ABout "]}
                     typeSpeed={40}
                   />
                  
@@ -17,4 +16,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default About;

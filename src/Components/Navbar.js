@@ -1,5 +1,5 @@
 import React from "react";
-import logo2 from "../assets/images/logo2.png";
+import logo from "../assets/images/logo2up.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light ">
       <div className="container">
         <NavLink className="navbar-brand" to="/">
-          <img src={logo2} alt="logo" className="logo"  />
+          <img src={logo} alt="logo" className="logo" />
         </NavLink>
         <button
           className="navbar-toggler"
@@ -31,28 +31,23 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/Skills">
+              <NavLink className="nav-link" to="/About">
                 About
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/Projects">
-                Events
+                Team
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/Blogs">
-               Team
+                Events
               </NavLink>
             </li>
-              <li className="nav-item">
-              <NavLink className="nav-link" to="/Roadmap">
-               Blogs /Road Maps
-              </NavLink>
-              </li>
-              <li className="nav-item">
+            <li className="nav-item">
               <NavLink className="nav-link" to="/Contact">
-                Sign in
+                Contact us
               </NavLink>
             </li>
           </ul>

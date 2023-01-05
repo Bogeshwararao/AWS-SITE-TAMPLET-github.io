@@ -10,11 +10,10 @@ import Navbar from "./Components/Navbar.js";
 
 // Importing screens
 import Home from "./Screens/Home";
-import Skills from "./Screens/Skills";
+import About from "./Screens/About";
 import Blogs from "./Screens/Bolgs";
 import Projects from "./Screens/Projects";
 import Contact from "./Screens/Contact";
-import Roadmap from "./Screens/Roadmap";
 import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 
 function App() {
@@ -23,19 +22,15 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/Skills" component={Skills} />
+       <Route exact path="/About" component={About} />
         <Route exact path="/Blogs" component={Blogs} />
         <Route exact path="/Projects" component={Projects} />
         <Route exact path="/Contact" component={Contact} />
-
-
-
-
-
-
-        <Route exact path="/Roadmap" components={Roadmap} />
         <Redirect to="/" />
       </Switch>
+
+      {/* <Header /> */}
+      {/* <h2>Let's do this...</h2> */}
     </div>
   );
 }
