@@ -146,23 +146,7 @@ nav .nav-link{
   background-color: white;
 } */
  */
- .register1{
-  max-width: 978px;
-  width: 70vw;
-  display:flex;
-  border: 1px solid #e9ecef;
-  border-radius: 5px;
-  box-shadow: 1px 3px 10px #e9ecef;
-  background-color: white;
-}
-
-.register1 span{
-  color: #adb5bd;
-}
-.register1 .col-1{
-  margin: auto;
-  padding: 3em 0;
-}
+ 
 
 /* responsive code */
 
