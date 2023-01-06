@@ -47,12 +47,17 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/Contact">
-                Contact us
+              Contact us
               </NavLink>
             </li>
           </ul>
+         
         </div>
+        {/* <NavLink>
+        <button to="/Contact">jhu</button>
+        </NavLink> */}
       </div>
+     
     </nav>
   );
 };

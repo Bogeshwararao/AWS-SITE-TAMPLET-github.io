@@ -5,6 +5,9 @@ import Slider from '../Components/Slider/Slider'
 const Home = () => {
   return (
     <>
+    <div >
+      < Slider />
+      </div>
       {/* <section id="Header" className="d-flex align-items-center">
         <div className="container-fluid">
           <div className="row">
@@ -19,9 +22,7 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-      <div >
-      < Slider />
-      </div>
+      
     </>
   );
 };

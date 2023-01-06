@@ -1,22 +1,14 @@
+// eslint-disable-next-line
 import React, { useState } from "react";
-import Typed from "react-typed";
-
+import Demo from "../Components/DemoForm"
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
  
-
   return (
     <>
-      <div className=" align-items-center col-10 mx-auto">
-                  <Typed
-                    className="typed"
-                    strings={["ACM-SIST Contact "]}
-                    typeSpeed={40}
-                  />
-                 
-                </div>
-                
+    < Demo />
+      
     </>
   );
 };
