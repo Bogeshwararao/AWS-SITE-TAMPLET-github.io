@@ -16,6 +16,7 @@ import Projects from "./Screens/Projects";
 import Contact from "./Screens/Contact";
 import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 
+
 function App() {
   return (
     <div className="App">
@@ -23,8 +24,8 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
        <Route exact path="/About" component={About} />
+       <Route exact path="/Projects" component={Projects} />
         <Route exact path="/Blogs" component={Blogs} />
-        <Route exact path="/Projects" component={Projects} />
         <Route exact path="/Contact" component={Contact} />
         <Redirect to="/" />
       </Switch>

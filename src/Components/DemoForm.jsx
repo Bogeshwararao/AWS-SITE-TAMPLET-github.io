@@ -92,13 +92,14 @@ class DemoForm extends React.Component {
      
   render() {
     return (
-      <div id='register1'>
+        
+      <div className="d-flex align-items-center col-10 mx-auto" >
         <div className="my-3 mx-auto">
         <h1 className="text-center">Contact us</h1>
         <br></br>
         <div className="container contact-div">
           <div className="row">
-            <div className="col-md-5 col-10 mx-auto">
+            <div className="">
         <form onSubmit={this.handleSubmit}>
   
           <div class="form-group">

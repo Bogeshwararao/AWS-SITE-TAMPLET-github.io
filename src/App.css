@@ -59,7 +59,35 @@ nav .nav-link{
 }
 
 /* ********* Home *********** */
-
+.abt{
+  text-align:center;
+  padding: 10px;
+}
+#ph1{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+#ph2{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.abt-con1{
+  text-align:center;
+  padding-left: 10px;
+  padding-right:10px;
+  font-family: "mulish" "san-serif";
+  justifyContent: 'center';
+}
+.abt-con2{
+  text-align:center;
+  font-family: "mulish" "san-serif";
+}
 #header{
   width: 100%;
   height: 80vh;
@@ -111,11 +139,94 @@ nav .nav-link{
     transform: translateY(-10px);
   }
 }
+/*****************Team*********** */
+.blogs h2{
+  padding-top: 2rem;
+  color: var(--primary-v);
+}
+.list-icon{
+  list-style:none;
+}
+#Linked-icon{
+      margin-left:1rem;
+      margin-right:1rem;
+}
+#Linked-icon:hover{
+  transform: scale(1.25);
+}
+#Mail-icon{
+  margin-left:1rem;
+  margin-right:1rem;
+}
+#Mail-icon:hover{
+transform: scale(1.25);
+}
+#Insta-icon{
+  margin-left:1rem;
+  margin-right:1rem;
+}
+#Insta-icon:hover{
+  transform: scale(1.25);
+  
+}
 
+.blog-img{
+  /* width: 30%; */
+  /* border-radius: 20.5rem; */
+  overflow: hidden;
+  position: relative;
+  height:280px;
+  box-shadow: rgb(0 0 0 / 22%) 0px 30px 60px -10px, rgb(0 0 0 / 25%) 0px 18px 36px -18px;
+  margin-bottom: 30px;
+  transition: transform 0.3s var(--ease-out-quad),box-shadow 0.3s var(--ease-out-quad);
+}
+.blog-card a{
+  display: block;
+}
+#Profile-img{
+  margin-left:4.0rem;
+  margin-top: 1.5rem;
+  width: 150px;
+    height: 150px;
+  object-fit: cover;
+    border-radius: 100%;
+}
+#Title-team{
+  margin-left:5.0rem;
+}
+#Title-team-des{
+  margin-left:6.0rem;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.blog-card{
+  margin-top: 1rem;
+  border-radius: 0px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+
+.blog-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 /* **************** Contact ****************** */
+#contain{
 
+ 
+  
+  width: 30vw; 
+  display:flex;
+  border: 1px solid #e9ecef;
+  border-radius: 25px;
+  box-shadow: 1px 3px 10px #e9ecef;
+  background-color: white;
+}
 
  #btn-submit{
   margin-right: 5rem;
