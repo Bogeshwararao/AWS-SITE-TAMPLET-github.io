@@ -214,7 +214,25 @@ transform: scale(1.25);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/*********************Event******************/
+.Total-event{
+    margin: 2rem;
+}
 
+#Event-gap {
+   margin: 2rem;
+   border-radius: 25px;
+}
+#Event-gap:hover{
+  transform: scale(1.05);
+}
+#event-img{
+  border-top-left-radius: 25px;
+	border-top-right-radius:25px;
+}
+.pre-event-title{
+   margin-left:4rem;
+}
 /* **************** Contact ****************** */
 #contain{
 

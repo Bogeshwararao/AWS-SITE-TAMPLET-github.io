@@ -9,6 +9,7 @@ const Projects = () => {
     <>
     <div id="blog" className="my-4 mx-4 blog px-5">
     <h1>Leads</h1>
+    
       <div className="row">
         
         {Leaddetails.map((value, ind) => {
